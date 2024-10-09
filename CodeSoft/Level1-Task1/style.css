@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+
+.navbar{
+    display: flex;
+    height: 60px;
+    width: 100vw;
+    background: linear-gradient(to right,rgb(252, 192, 82),rgb(247, 3, 190));
+}
+.logo-nav{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+}
+.btn{
+   
+    border-radius: 11px;
+    background-color: rgb(76, 76, 191);
+    color: white;
+    /* margin-left: 30px; */
+    
+    
+   
+}
+.logo{
+    
+    width: 50%;
+    height: 50px;
+
+   
+}
+.icon{
+    margin-left: 20px;
+    margin-top: 12px;
+    
+}
+.phone{
+    padding-top: 5px;
+}
+.email{
+    padding-top: 5px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    position: relative;
+    background: linear-gradient(to right,rgb(206, 194, 194),rgb(166, 166, 239));
+
+}
+.menubar{
+    width: 30%;
+    height: 60px;
+    position: absolute;
+    right: 10px;
+    /* display: flex; */
+
+}
+.mlist{
+    width: 90%;
+    height:50px ;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para{
+    margin: 10px;
+   color: rgb(240, 233, 233);
+}
+
+.middle{
+    width: 100vw;
+    height: 250px;
+    background-color: white;
+
+}
+.image{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://unsplash.com/photos/a-pair-of-white-letters-sitting-on-top-of-a-black-surface-BBp1PmvfmdU);
+    background-size : cover;
+    
+
+}
+.img-para{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size:xx-large;
+    padding-top: 1%;
+    padding-left: 90px;
+    color:rgb(15, 14, 14);
+    text-decoration:  underline rgb(149, 85, 85);
+    
+    
+}
+/* .vl{
+    border-left:6px solid red ;
+    height: 100px;
+}
+position: absolute; */
+.red-qouts{
+    color: rgb(180, 76, 85);
+    padding-top: 20px;
+    padding-right: 900px;
+}
+.violet-qouts{
+    color: rgb(149, 99, 195);
+    padding-right: 400px;
+    padding-top: 5px;
+}
+.green-qouts{
+    color: rgb(39, 80, 39);
+    padding-left: 200px;
+}
+
+@media screen and (max-width: 598px) {
+    h1{
+        font-size: 20px;
+    }
+   h2,h3,h4{
+    font-size: 20px;
+   }
+   a{
+    font-size: 10px;
+   }
+  }
+
+  .footer{
+    height: 180px;
+    width: 100vw;
+    border-radius: 12px;
+    background: linear-gradient(to right,rgb(252, 192, 82),rgb(247, 3, 190))
+  }
